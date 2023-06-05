@@ -1,0 +1,66 @@
+.content{
+    position: absolute;
+    transition-duration: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    font-size: 25px;
+    transform: translateX(100%);
+    
+}
+.hero{
+     width: 80%;
+    margin-left: 250px;
+    position: relative;
+     overflow: hidden;
+     height: 500px;
+}
+.btn-box{
+    justify-content: space-evenly;
+    display: flex;
+}
+.btn-box button{
+    font-size: 20px;
+    outline: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+.btn-box button:hover i{
+    color:chocolate ;
+
+}
+#home-aboutme{
+    transform: translateX(0px);
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+h5{
+    padding: 2px;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.nav-link , .navbar-brand{
+    color: white; font-size: 20px;
+}
+.nav-link:hover{
+    color: black;
+}
+.navbar{
+    box-shadow: 0 3px 10px  #5BA8B7;
+}
+header{
+    background-image:linear-gradient(rgba(91,168,183,.7) ,rgba(91,168,183,.7) ) , url(../images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#authors img{
+    margin-top: -70px;
+}
+
+
